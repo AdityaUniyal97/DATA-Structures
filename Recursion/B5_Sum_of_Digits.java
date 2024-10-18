@@ -1,6 +1,6 @@
 package Recursion;
 
-public class A5_Sum_of_Digits {
+public class B5_Sum_of_Digits {
     static int fun(int n)
     {
         if(n < 10)

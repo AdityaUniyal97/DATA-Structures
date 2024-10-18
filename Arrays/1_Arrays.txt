@@ -1,0 +1,26 @@
+Array is a linear data structure which is used to store the mulptiple item together in onepalce and this item are of same type . In array elements are stroed in a contiguous memory . Array elements are accessed through indexing .
+
+Advatage of array :=>
+1> Randome access 
+2> Cache freidliness 
+ 
+ Types of Array:
+ 1> Fixed sized array = the are the array which dont allow the eleemnts more than the defined sized
+ ex = 
+ int arr[] = {10, 15, 30};
+ int[] arr = new int[100];
+ int[] arr = new int[n];
+
+ 2> Dynamic Sized Array = these are the array which can resize themeselves internally based upon the user implemenentation.
+ ex = 
+import java.util.*;
+class A
+{
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> al = new ArrayList<Integer>();
+        al.add(10);
+        al.add(20);
+        System.out.println(al);
+    }
+}
