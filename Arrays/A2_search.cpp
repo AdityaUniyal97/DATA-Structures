@@ -17,6 +17,6 @@ int main()
 {
     int arr[] = {20, 5, 7, 25};
     int x = 7;
-    int n = sizeof(arr);
+    int n = sizeof(arr);               
     cout<<search(arr , n , x);
 }
