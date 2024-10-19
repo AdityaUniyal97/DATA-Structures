@@ -1,4 +1,4 @@
-public class Left_Rotate_Array_By_one {
+public class B11_Left_Rotate_Array_By_one {
 
 	static void lRotate(int arr[] , int n)
 	{

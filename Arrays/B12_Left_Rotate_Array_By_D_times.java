@@ -1,4 +1,4 @@
-public class Left_Rotate_Array_By_D_times
+public class B12_Left_Rotate_Array_By_D_times
  {
  	static void reverse(int arr[] , int low , int high)
  	{
