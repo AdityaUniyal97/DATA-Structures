@@ -1,0 +1,9 @@
+Binary search is a searching algorithm that efficiently finds an element in a sorted array. Here's how it works:
+
+Check the middle element of the array.
+Compare the target element with the middle:
+If the middle element is equal to the target, the search ends.
+If the middle element is greater than the target, search in the left half of the array.
+If the middle element is smaller than the target, search in the right half of the array.
+Repeat the process on the relevant half of the array until the element is found or the search space reduces to zero.
+Binary search reduces the search space by 
