@@ -21,6 +21,7 @@ public class B22_maximum_sum_by_sliding_window {
         int arr[] = {1, 8, 30, -5, 20, 7};
         int n = 6;
         int k = 3;
-        System.out.println(maxSum(arr, n, k));
+        int max= maxSum(arr, n, k);
+        System.out.println(max);
     }
 }
