@@ -1,0 +1,1 @@
+In selection Sort we find the minimum element and put it in the first position and than find the second minimum element and put it in the second postion and continue this until the array become fully sorted 

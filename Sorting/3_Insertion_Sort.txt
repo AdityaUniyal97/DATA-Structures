@@ -1,0 +1,1 @@
+In insertion Sort we virtually divide the array into two parts which is the sorted and the unsorted part , than we pick the smallest element from the unsorted and place it in its correct postion in sorted part in this way the entire array get sorted 

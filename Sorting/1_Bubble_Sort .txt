@@ -1,0 +1,1 @@
+Bubble sort is a comparison based algorithm which move the largest element to end and than the second largest element to the second largest position and keep doing it until the array becomes the fully sorted

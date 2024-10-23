@@ -1,0 +1,30 @@
+#include<iostream> 
+using namespace std;
+void selection_sort(int arr[] , int n)
+{
+    for(int i = 0 ; i < n ; i++)
+    {
+        int min_indx = i;
+        for(int j = i + 1; j < n ; j++)
+        {
+            if(arr[j] < arr[min_indx])
+            {
+                min_indx = j;
+            }
+        }
+        int temp = arr[i];
+        arr[i] = arr[min_indx];
+        arr[min_indx] = temp;
+    }
+}
+
+int main()
+{
+    int arr[] = {90, 80, 90, 25};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    selection_sort(arr , n);
+    for(int i = 0 ; i < n ; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+}
