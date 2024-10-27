@@ -1,0 +1,8 @@
+1- String is a sequence of characters.
+2- String class are immutable means once we have defined them we can not change it . String class are used to create tehe string literals basically the string which we dont want to change
+3- If we want to make our string mutable we can make it using the String Builder and String Buffer
+
+Differences:
+String Class = are used to create a immutable string
+String Builder = are used to create a mutable string but in a single threaded environment
+String Buffer = are used to create a mutable string but in a multi threaded environment
