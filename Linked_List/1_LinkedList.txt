@@ -1,0 +1,7 @@
+Linked list is a sequnece of nodes where each node contains data and a pointer(which is bassically holding the address of next node so in this way the enitre linked list is connected to each other)
+
+Advantage = of Linked list 
+Dynamic Size , easy insert and delete
+
+Disadvantage
+No random access , Need eztra memory for h9olding the address of the next node
