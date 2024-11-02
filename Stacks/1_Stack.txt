@@ -1,0 +1,1 @@
+Stqack is data Structure that follows the LIFO principle . This means that the elements added to the stack is the first one to be removed 
