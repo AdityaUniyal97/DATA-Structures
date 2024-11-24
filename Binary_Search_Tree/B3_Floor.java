@@ -1,17 +1,9 @@
-package BinaryTree;
+package Binary_Search_Tree;
 import java.util.*;
-class Node{
-    int key;
-    Node left;
-    Node right;
-    Node(int k)
-    {
-        key = k;
-        left = right = null;
-    }
-}
-public class B4_Ceiling {
-    public static Node ceil(Node root, int x)
+
+import Binary_Search_Tree.Node;
+public class B3_Floor {
+    public static Node floor(Node root , int x)
     {
         Node res = null;
         while(root != null)
@@ -20,13 +12,13 @@ public class B4_Ceiling {
             {
                 return root;
             }
-            else if(root.key < x)
+            else if(root.key > x)
             {
-                root = root.right;
-            }
-            else {
-                res = root;
                 root = root.left;
+            }
+            else{
+                res = root;
+                root = root.right;
             }
         }
         return res;
@@ -40,8 +32,7 @@ public class B4_Ceiling {
     	root.right.left=new Node(18);
     	root.right.left.left=new Node(16);
     	root.right.right=new Node(80);
-    	int x=17;
-        System.out.println(ceil(root, 
-        x).key);
+        int x = 17;
+        System.out.println(floor(root, x).key);
     }
 }

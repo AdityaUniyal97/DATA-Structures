@@ -1,4 +1,4 @@
-package BinaryTree;
+package Binary_Search_Tree;
 import java.util.*;
 class Node{
     int key;
